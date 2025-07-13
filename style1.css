@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+    
+}
+
+body{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+background: url(1060723.jpg);
+background-position: center;
+background-size: cover;
+}
+.wrapper{
+    position: relative;
+    
+    border: 1px lab(100% 0.01 -0.01 / 0.815) solid ;
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    padding: 80px 60px 80px 60px;
+    box-shadow: 2px 2px 10px 0px rgb(90, 90, 90) ;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+    
+
+   
+
+
+h4{
+    font-size: 20px;
+    position:absolute;
+    top: 0%;
+    left: 25%;
+    background-color:white;
+    border: 10px lab(100% 0.01 -0.01 / 0.815) solid;
+    box-shadow: 0px 0px 8px 0px white;
+    border-radius: 0px 0px 5px 5px;
+    
+}
+
+.username{
+    position: absolute;
+    top: 30%;
+    right: 63px;
+    border-bottom: 1px white solid;
+    border-radius: 20px 20px 20px 20px ;
+    color: aliceblue;
+    
+    
+}
+.password{
+    position: relative;
+    left: 0px;
+    bottom: px;
+    top: 33px;
+       color: aliceblue;
+   
+}
+.submit{
+    position: relative;
+    bottom: 0px;
+    top: 45px;
+    
+}
+.username , .input{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    top: 2px;
+    left: 0px;
+       color: aliceblue;
+    
+
+}
+.password , .input{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    top: 7px;
+    left: 0px;
+    border-bottom: 1px white solid;
+    border-radius: 20px 20px 20px 20px;
+       color: aliceblue;
+}
+.submit , .input{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    top: 12px;
+    left: 0px;
+    width:300px;
+    background-color: transparent;
+
+   
+    
+}
+.submit , .submit-field{
+    background-color: transparent;
+    box-sizing: border-box;
+    top: 25px;
+    width: 350px;
+    height: 35px;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    bottom: 30px;
+    box-shadow: 0px 0px 8px 0px white;
+    cursor: pointer;
+    cursor:progress;
+}
+.input-field{
+   
+   border: 0px transparent;
+   background-color: transparent;
+   width: 350px;
+height: 40px;
+
+border: none;
+outline: none;
+    border-top:1px white solid;
+    border-radius: 20px ;
+    box-shadow: 0px -8px 8px -8px  white;
+       color: aliceblue;
+          color: aliceblue;
+    
+
+
+}
+
+.password-field{
+border: 0px transparent;
+background-color: transparent;
+width: 350px;
+height: 40px;
+border-radius: 20px;
+border: none;
+outline: none;
+ border-top:1px white solid;
+    border-radius: 20px ;
+    box-shadow: 0px -10px 10px -10px  white;
+       color: aliceblue;
+}
+::placeholder{
+    color: white;
+    font-weight: 1px;
+}
+.ayan{
+    position: absolute;
+    margin: 50px;
+    right: 0px;
+    color: white;
+    font-style: italic;
+    font-weight:200;
+
+    
+}
+
